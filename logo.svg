@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="769" height="325" viewBox="0 0 769 325">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-433 -162)">
+    <g id="Rectángulo_2" data-name="Rectángulo 2" transform="translate(433 162)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="769" height="325" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="768" height="324" rx="11.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(500 216)" fill="#fff" stroke="#030303" stroke-width="1">
+      <rect width="636" height="225" rx="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="635" height="224" rx="39.5" fill="none"/>
+    </g>
+    <line id="Línea_1" data-name="Línea 1" y2="158" transform="translate(1030.5 249.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="CINECUT" transform="translate(609 358)" fill="#707070" font-size="70" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="0">CINECUT</tspan></text>
+    <text id="FREE_PASS" data-name="FREE PASS" transform="translate(672 399)" fill="#707070" font-size="35" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="0">FREE PASS</tspan></text>
+    <text id="_198762" data-name="198762" transform="translate(1060.5 261.5) rotate(90)" fill="#707070" font-size="35" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="0">198762</tspan></text>
+    <text id="_" data-name="★" transform="translate(625 288)" fill="#707070" font-size="55" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">★</tspan></text>
+    <text id="_2" data-name="★" transform="translate(751 288)" fill="#707070" font-size="75" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">★</tspan></text>
+    <text id="_3" data-name="★" transform="translate(893 288)" fill="#707070" font-size="55" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">★</tspan></text>
+  </g>
+</svg>
