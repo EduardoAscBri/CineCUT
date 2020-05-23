@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Cutonala, cine, Cinecut" />
+    <meta name="copyright" content="Cinecut 2020 Insight Concept" />
+    <link rel="icon" type="image/png" href="./img/icon.png" sizes="30x30" />
+    </script>
+    <title>Cinecut</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <!-- CUSTOM CSS -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cinecut</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+        <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="logo" height="70vh"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active ml-2">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="#">Estrenos</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="nav-link disabled" href="#">Calendario</a>
+                </li>
+                <li class="nav-item dropdown ml-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Identificarme
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Registrarme</a>
+                        <a class="dropdown-item" href="#">Iniciar sesión</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <h1 class="display-4 m-2 p-1">Lo que no te puedes perder este mes</h1>
+    </div>
+    <div id="demo" class="carousel slide m-2 p-1" data-ride="carousel">
+        <!--CCarrusel de imagen-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="./img/Pulp.jpg" alt="First slide" width="1000" height="600">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">¨Pulp Fiction</h3>
+                        <p>Quentin Tarantino</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="./img/Synec.jpeg" alt="Second slide" width="1000" height="600">
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Psynecdoche New York</h3>
+                        <p>Charlie Kauffman</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="./img/jojo.jpg" alt="Third slide" width="1000" height="600">
+                        <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Jojo Rabbit</h3>
+                        <p>Taika Waititi</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+    </div>
+    <div>
+        <h1 class="display-4 m-2 p-1">Te recomendamos las mejores reseñas de la semana</h1>
+    </div>
+    <!-- Marketing messaging and featurettes
+      ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing mt-5">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="./img/wars.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>El Roy cinefilo</h2>
+                <p>La nueva trilogía de star wars me parecío fría y sin corazon, una razón mas que tiene Disney para
+                    sacar dinero lucrando con la nostalgía, confío en el futuro del mundo Star wars
+                    fuera del camino de los Skywalker y de la mano de directores como Taika Waititi. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="./img/jojo.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Jair Film Lover</h2>
+                <p>La nueva pelicula de jojo demuestra el poder de Taika Waititi como director,
+                    nos presenta una película facil de ver, pero que a momentos puede ser mas dolorosa
+                    que los peores dramas de la segunda guerra mundial, en ocasiones me parece
+                    una mas acertada reinterpretación de "El niño con pijama de rayas" pero con un tono
+                    mas acertado que envuelve al espectador en un lento sufrir.
+                </p>
+                <p><a class="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="./img/wars.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Lalous pretenciuos</h2>
+                <p>Me gusto mucho la nueva trilogia de star wars, pero no soy friki.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+
+    <div class="ml-2 mt-3">
+        <h1 class="display-4 m-2 p-1">Por si te lo perdiste</h1>
+        <h1 class="display-5 m-2 p-1">Lo mejor del mes pasado</h1>
+    </div>
+    <!-- START THE FEATURETTES -->
+    <div class="ml-2">
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">A quite place <span class="text-muted">Una nueva experiencia en
+                        terror</span></h2>
+                <p class="lead">En el año 2020, unas criaturas misteriosas con un sentido auditivo extraordinario han
+                    diezmado a la población mundial. Una familia se oculta en una cabaña y se comunica mediante la
+                    lengua de signos para no ser cazados por estos monstruos.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="./img/quiet.jpg" alt="Generic placeholder image"
+                    width="510" height="340">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Lady bird <span class="text-muted">Tan real como dolorosa</span></h2>
+                <p class="lead">Marion McPherson, una enfermera de California, trabaja incansablemente para sustentar a
+                    su familia desde que su esposo quedó desempleado. Marion tiene problemas con su hija adolescente, de
+                    inclinaciones artísticas y temperamento fuerte.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" src="./img/bird.jpg" alt="Generic placeholder image" width="510" height="340">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"> Hotel Budapest<span class="text-muted"> Wes Anderson en su maximo
+                        esplendor</span></h2>
+                <p class="lead">El conserje de un elegante hotel europeo inicia una interesante amistad con un joven
+                    compañero de trabajo.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="./img/budapest.jpg" alt="Generic placeholder image" width="510" height="340">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-left col-md-4 col-sm-6">
+            <p class="about">
+                <span> Sobre nosotros</span> Somos una equipo universitario encargado de desarrollar proyectos bien
+                chidoris
+            </p>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span> 27100 La casa del Roy Miramar</span> Guadalajara, México</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> (+00) 0000 000 000</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">RoyRodrigoRodriguez@leagueoflegends.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+            <h2><img src="./img/Logo.png" alt="logo" height="70vh"></h2>
+            <p class="menu">
+                <a href="#"> Home</a> |
+                <a href="#"> Estrenos</a> |
+                <a href="#"> Calendario</a> |
+                <a href="#"> Iniciar sesión</a> |
+                <a href="#"> Registrarse</a> |
+            </p>
+            <p class="name"> Insight Concept &copy; 2020</p>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP AND JS SCRIPTS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://cdn.renderedfont.com/js/renderedfont-0.8.min.js#free"></script>
+    </script>
+</body>
+
+</html>
