@@ -2614,7 +2614,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #F3F6FA;
+	/*background: #F3F6FA;*/
 	padding-top: 70px;
 	padding-bottom: 0;
 }
@@ -2907,6 +2907,12 @@ ol {
 		max-width: 1170px;
 	}
 }
+
+.container__tienda{
+	display: flex;
+	justify-content: center;
+}
+
 
 /* Medium Device = 1200px */
 

@@ -17,9 +17,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
     <!-- CUSTOM CSS -->
-    <!--Store styles-->
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -31,11 +30,10 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/storeStyles.css" type="text/css">
     <!--StoreStyles-->
-
-
-    <link rel="stylesheet" href="./css/style.css" />
     <title>Cinecut</title>
 </head>
+
+
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
@@ -48,16 +46,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active ml-2">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ml-2">
-                    <a class="nav-link" href="#">Estrenos</a>
+                    <a class="nav-link disabled" href="./Calendario.html">Calendario</a>
                 </li>
                 <li class="nav-item ml-2">
-                    <a class="nav-link" href="#">Calendario</a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a class="nav-link" href="#">Tienda</a>
+                    <a class="nav-link disabled" href="./Tienda.html">Tienda</a>
                 </li>
                 <li class="nav-item dropdown ml-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -65,8 +60,8 @@
                         Identificarme
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Registrarme</a>
-                        <a class="dropdown-item" href="#">Iniciar sesión</a>
+                        <a class="dropdown-item" href="./addusr.html">Registrarme</a>
+                        <a class="dropdown-item" href="./login.html">Iniciar sesión</a>
                     </div>
                 </li>
             </ul>
@@ -76,6 +71,12 @@
             </form>
         </div>
     </nav>
+
+    <div class="container__tienda">
+        <a class="navbar-brand">¡Realiza tu puedido aquí!</a>
+        <a href="./Pago.html"><button id="bttPrint" type="button" class="btn btn-outline-success">Realizar
+            pedido</button></a>
+    </div>
 
     <!--Contenido de la tienda-->
 
@@ -197,19 +198,20 @@
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
-                <p><a href="#">RoyRodrigoRodriguez@leagueoflegends.com</a></p>
+                <p><a href="#">insightconcept@gmail.com</a></p>
             </div>
         </div>
         <div class="footer-right col-md-4 col-sm-6">
             <h2><img src="./img/Logo.png" alt="logo" height="70vh"></h2>
             <p class="menu">
-                <a href="#"> Home</a> |
-                <a href="#"> Estrenos</a> |
-                <a href="#"> Calendario</a> |
-                <a href="#"> Iniciar sesión</a> |
-                <a href="#"> Registrarse</a> |
+                <a href="./index.html"> Home</a> |
+                <a href="./Calendario.html"> Calendario</a> |
+                <a href="./login.html"> Iniciar sesión</a> |
+                <a href="./addusr.html"> Registrarse</a> |
             </p>
             <p class="name"> Insight Concept &copy; 2020</p>
+        </div>
+
         </div>
     </footer>
     <!-- BOOTSTRAP AND JS SCRIPTS -->
